@@ -1,6 +1,7 @@
 # Exercism Standard ML Track
 
-[![Build Status](https://travis-ci.org/exercism/sml.png?branch=master)](https://travis-ci.org/exercism/sml)
+[![Configlet Status](https://github.com/exercism/sml/workflows/configlet/badge.svg)]
+[![Exercise Test Status](https://github.com/exercism/sml/workflows/sml%20%2F%20main/badge.svg)]
 
 Exercism exercises in Standard ML.
 
@@ -27,7 +28,7 @@ Every exercise must have at least these files:
 - `test.sml`: Test suite
 - `testlib.sml` Test helper
 
-#### `testlib.sml`
+### `testlib.sml`
 
 This helper has this structures:
 
@@ -138,7 +139,7 @@ make test-{{ slug }}
 if you are in exercises/{{slug}}
 
 ```
-make -C ../../ test-{{ slug }}
+make -C https://github.com/exercism/v3/blob/main/ test-{{ slug }}
 ```
 
 If you want to run all the tests:
